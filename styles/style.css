@@ -6,23 +6,34 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.containner:hover {
-    background-color: rgb(79, 18, 129);
 
 
+
+
+
+
+
+@keyframes nothing {
+    from {
+        background-color: rgb(21, 60, 143);
+    }
+
+    to {
+        background-color: magenta;
+    }
 }
 
-.containner button:hover {
-    background-color: steelblue;
-}
+
+
 
 .containner {
     display: flex;
     justify-content: center;
     margin: 50px;
     border-radius: 30px;
-    background-color: hsla(0, 0%, 0%, 0.925);
+
     color: white;
+    animation: nothing 1s ease-in-out infinite;
 
 }
 
@@ -37,6 +48,50 @@ body {
     background-color: red;
     color: white;
     font-weight: 700;
+}
+
+@keyframes height {
+    from {
+        width: 350px;
+    }
+}
+
+.button {
+    height: 100px;
+    font-size: 1em;
+    font-weight: 900;
+    width: 200px;
+    border: 2px solid black;
+    transition: width 1s;
+    animation: height 1s ease-in-out infinite alternate;
+}
+
+.button:hover {
+    background-color: rgb(11, 196, 252);
+    width: 300px;
+
+
+}
+
+@keyframes identifier {
+    from {
+        color: crimson;
+    }
+
+    to {
+        color: rgb(10, 87, 7);
+    }
+}
+
+.theory h1 {
+    animation: identifier 1s ease-in-out infinite;
+}
+
+.picture img {
+    width: 450px;
+
+
+
 }
 
 /* second section work now */
