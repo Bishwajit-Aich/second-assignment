@@ -22,8 +22,26 @@ body {
 
 }
 
-button {
+.button {
     background-color: red;
     color: white;
     font-weight: 700;
+}
+
+/* second section work now */
+
+.button-two button {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+.button-two {
+    padding: 20px 40px;
+    background-color:
+        #161616;
+    width: 200px;
+    border-radius: 4px;
+    margin: 30px
 }
