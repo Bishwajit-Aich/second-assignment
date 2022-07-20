@@ -38,10 +38,68 @@ body {
 }
 
 .button-two {
-    padding: 20px 40px;
-    background-color:
-        #161616;
+    padding: 50px 40px;
+    background-color: #161616;
     width: 200px;
     border-radius: 4px;
-    margin: 30px
+    margin: 30px;
+    font-size: 20px;
+
+}
+
+#red {
+    background-color: red;
+}
+
+
+.blog {
+    width: 312px;
+    height: 300px;
+    margin: 50px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    row-gap: -200px;
+}
+
+.flex {
+    display: flex;
+    margin: 50px;
+    margin-left: -40px;
+    justify-content: center;
+
+}
+
+.goal {
+    text-align: center;
+    color: whitesmoke;
+    background-color: hsl(0, 0%, 0%);
+    padding: -1000px;
+
+}
+
+.flex-again {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 70px;
+
+
+}
+
+.goal-2 {
+    padding: 30px;
+}
+
+.hr-br {
+    margin: 0px 40px;
+}
+
+.flex-again button {
+    border: none;
+    background-color: black;
+    color: wheat;
+    padding: 50px;
 }
