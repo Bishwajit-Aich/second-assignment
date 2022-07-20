@@ -46,6 +46,8 @@ body {
     height: 50px;
     border-radius: 4px;
     background-color: #FFFFFF;
+    color: black;
+    font-weight: 900;
 }
 
 .another-button {
@@ -64,6 +66,8 @@ body {
     height: 50px;
     border-radius: 4px;
     background-color: #FFFFFF;
+    color: black;
+    font-weight: 900;
 }
 
 
@@ -74,6 +78,7 @@ body {
     border-radius: 4px;
     margin: 30px;
     font-size: 20px;
+
 
 }
 
@@ -87,6 +92,18 @@ body {
     height: 300px;
     margin: 50px;
 
+}
+
+.another-button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.button-two a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
 }
 
 .grid {
