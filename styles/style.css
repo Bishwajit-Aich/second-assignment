@@ -1,0 +1,29 @@
+/* font using */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+
+/* font size */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.containner {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    background-color: hsla(0, 0%, 0%, 0.925);
+    color: white;
+
+}
+
+.theory {
+    width: 350px;
+    margin: 50px;
+
+
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-weight: 700;
+}
